@@ -1,0 +1,24 @@
+.container{
+    border: 1px solid black;
+    width: 100vw;
+    height: 40vh;
+    align-items: center;
+    
+}
+
+.container,.text,.married,.department,.skills,.table{
+    display: flex;
+}
+
+.container,.text,.department,.skills,.table{
+    justify-content: space-evenly;
+
+}
+
+.text,.department,.skills{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.married{
+    align-items: center;
+}
